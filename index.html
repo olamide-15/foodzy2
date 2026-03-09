@@ -13,16 +13,18 @@
             <div class="innerTopNav generalLay">
                 <img src="./image/div.cr-category-toggle.png" alt="hambuger">
 
-                <span class="navTag">
-                    <a href="#">home </a>
-                    <a href="#"> category <i class="fa-solid fa-angle-down"></i></a>
-                    <a href="#">products <i class="fa-solid fa-angle-down"></i></a>
-                    <a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
-                    <a href="#">blog <i class="fa-solid fa-angle-down"></i></a>
-                    <a href="#">elements <i class="fa-solid fa-angle-down"></i></a>
-                </span>
+                <marquee width="80%" direction="left" >
+                    <span class="navTag">
+                        <a href="#">home </a>
+                        <a href="#"> category <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="#">products <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="#">blog <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="#">elements <i class="fa-solid fa-angle-down"></i></a>
+                    </span>
+                </marquee>
 
-                <span>
+                <span class="imgNo">
                     <img src="./image/Vector (12).png" alt="tel">
                     +123 ( 456 ) ( 7890 )
                 </span>
@@ -33,9 +35,14 @@
 
         <nav>
             <div class="innerNav generalLay">
-            <img src="" alt="foodzylogo">
+            <img src="./image/Group 1000001803 (1).png" alt="foodzylogo">
 
-                <form>
+                <label for="toggle" class="hambuger">&#9776</label>
+                    <input type="checkbox" id="toggle">
+
+
+                <div class="navRight">                    
+                    <form>
                     <input type="text" placeholder="search for items...">
 
                     <select>
@@ -44,13 +51,15 @@
                     <span >
                         <img src="./image/Vector (13).png" alt="Ic">
                     </span>
-                </form>
+                    </form>
 
-                <div class="innerItm">
-                    <a href="#"><img src="./image/Vector (14).png" alt="account">account</a>
-                    <a href="#"><img src="./image/Vector (15).png" alt="whishlist">account</a>
-                    <a href="#"><img src="./image/Vector (16).png" alt="cart">cart</a>
+                    <div class="innerItm">
+                        <a href="#"><img src="./image/Vector (14).png" alt="account">account</a>
+                        <a href="#"><img src="./image/Vector (15).png" alt="whishlist">account</a>
+                        <a href="#"><img src="./image/Vector (16).png" alt="cart">cart</a>
+                    </div>
                 </div>
+                
             </div>
         </nav>
     </header>
@@ -58,23 +67,22 @@
     <main>
     <!-- background section/hero section  -->
 
-     <section class="secHero">
-        <div class="imgCont ">
-            <img src="./image/bc94b5deeb520b065a5128b71ccfc5664c029b51.png" alt="spagetti">
+  <section class="heroSection">
+    <div class="heroImg">
+        <img src="./image/spagetti.png" alt="spagetti" />
+    </div>
 
-            <div>
-                <button class="heroBtn">
-                    <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    ORDER NOW
-                </button>
-
-                <div class="emailNo">
-                    <h2>609-791-3583</h2>
-                    <p>www.exemple.com</p>
-                </div>
-            </div>
+        <button class="heroBtn">
+            <i class="fa-solid fa-arrow-right"></i>
+            <h2>order now</h2>
+        </button>
+        <div class="heroNo">
+            <h4>609-791-3583</h4>
+            <p>www.exemple.com</p>
         </div>
-     </section>
+    
+
+  </section>
 
 
      <!-- section one  -->
@@ -119,8 +127,7 @@
                 <div  class="imgBtn">
                     <h3>Cake</h3>
                     <button>shop now</button>
-                </div>
-                
+                </div> 
             </div>
 
 
@@ -309,26 +316,26 @@
 
       <!-- section three  -->
        <section class="secThree">
-            <div class="cardWrp ">
+            <div class="cardWrap">
 
-            <div class="healthy">
-                <h3>healthy <br> bakery products</h3>
-                <p>30% <span>off on the first order</span></p>
-                <button>shop now</button>
-            </div>
-            
-            <div class="fresh">
-                <h3>fresh <br>snacks & sweets</h3>
-                <p>20% <span>off on the first order</span></p>
-                <button>shop now</button>
-            </div>
-            
-            
-            <div class="healthyFresh">
-                <h3>fresh & healthy <br> organic fruits</h3>
-                <p>35% <span>off on the first order</span></p>
-                <button>shop now</button>
-            </div>
+                <div class="healthy">
+                    <h3>healthy <br> bakery products</h3>
+                    <p>30% <span>off on the first order</span></p>
+                    <button>shop now</button>
+                </div>
+                
+                <div class="fresh">
+                    <h3>fresh <br>snacks & sweets</h3>
+                    <p>20% <span>off on the first order</span></p>
+                    <button>shop now</button>
+                </div>
+                
+                
+                <div class="healthyFresh">
+                    <h3>fresh & healthy <br> organic fruits</h3>
+                    <p>35% <span>off on the first order</span></p>
+                    <button>shop now</button>
+                </div>
             </div>
         </div>
        </section>
@@ -365,28 +372,28 @@
                 <h2>great deal on organic food</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis doloribus quibusdam hic dolorum.</p>
                 <div class="innerInnCard">
-                    <div>
+                    <div class="date">
                         <h4>365</h4> 
                         <p>Days</p>
                     </div>
                     <div class="colon">
                         :
                     </div>
-                    <div>
+                    <div class="date">
                         <h4>03</h4> 
                         <p>hrs</p>
                     </div>
                     <div class="colon">
                         :
                     </div>
-                    <div>
+                    <div class="date">
                         <h4>06</h4> 
                         <p>min</p>
                     </div>
                     <div class="colon">
                         :
                     </div>
-                    <div>
+                    <div class="date">
                         <h4>52</h4> 
                         <p>sec</p>
                     </div>
@@ -421,17 +428,53 @@
 
           <!-- section seven  -->
           <section class="secSeven">
-            <div class="conEight">
+            <div class="conSeven">
                 <h2>great words from people</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ea praesentium, soluta dicta quis eligendi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore lacus vel facilisis.</p>
 
-                <div>
-                    <div>
-                        <p>co founder</p>
-                        <h4>stephen smith</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio autem cupiditate exercitationem!
-                        </p>
+                <div class="greatCont">
+                    <div class="greatCard">
+                        <div class="curve">
+                            <img class="curveImg" src="./image/782dbe026f43786bb8b5efafd44ad79944158c82.jpg" alt="">
+                        </div>
+
+                        
+                        <div class="innerGreatCard">
+                            <p>co founder</p>
+                            <h4>stephen smith</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio autem cupiditate exercitationem!
+                            </p>
+                        </div>
                     </div>
+                    <div class="greatCard">
+                        <div class="curve">
+                            <img class="curveImg" src="./image/ab40c153d36f467f305d5bdff2ba2ba18dd63cc9.jpg" alt="">
+                        </div>
+
+                        
+                        <div class="innerGreatCard">
+                            <p>co founder</p>
+                            <h4>stephen smith</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio autem cupiditate exercitationem!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="greatCard">
+                        <div class="curve">
+                            <img class="curveImg" src="./image/76903b36185d104080232d7f1e0bb33590536d89 (1).jpg" alt="">
+                        </div>
+
+                        
+                        <div class="innerGreatCard">
+                            <p>co founder</p>
+                            <h4>stephen smith</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio autem cupiditate exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
           </section>
@@ -450,6 +493,10 @@
                         <h5>urna pretium elit mauris cursus at elit vestiblum</h5>
                         <a href="#">read more</a>
                         <img class="newImg" src="./image/7d3a8a774003dfae7d20398ac790ec8fb2e3d0fe.jpg" alt="">
+                        <div class="dm">
+                            <h2>10</h2>
+                            <h2>oct</h2>
+                        </div>
                         <!-- image either here/css   -->
                     </div>
                     <div class="new1">
@@ -457,6 +504,10 @@
                         <h5>urna pretium elit mauris cursus at elit vestiblum</h5>
                         <a href="#">read more</a>
                         <img class="newImg" src="./image/afbd9af73965b4e75762012d3223b80e39df54e3.jpg" alt="">
+                        <div class="dm">
+                            <h2>09</h2>
+                            <h2>sep</h2>
+                        </div>
                         <!-- image either here/css   -->
                     </div>
                     <div class="new1">
@@ -464,6 +515,10 @@
                         <h5>urna pretium elit mauris cursus at elit vestiblum</h5>
                         <a href="#">read more</a>
                         <img class="newImg" src="./image/42efa94ae65d6f4a0f9b4eeb8b4048089056ee7f.jpg" alt="">
+                        <div class="dm">
+                            <h2>12</h2>
+                            <h2>oct</h2>
+                        </div>
                         <!-- image either here/css   -->
                     </div>
                 </div>
@@ -474,32 +529,29 @@
 
 
      <footer>
-        
-            <div class=" footCont">
-                <div cl>
+        <div class="lastContainer">
+            <div class="firstCol">
                 
-                        <!-- <img src="./image/Page 1 1.png" alt="logo"> -->
-                        <!-- <img src="./image/Group 474.png" alt="words"> -->
+                        <img src="./image/Group 1000001803 (1).png" alt="logo">
                     
-                    <h3>FoodTrove is the biggest market of grocery products. Get your daily needs from our store.</h3>
+                    <h4>FoodTrove is the biggest market of grocery products. <br> Get your daily needs from our store.</h4>
                     <p>
-                        <!-- <span><img src="./image/Vector (7).png" alt="location"></span> -->
+                        <span><img src="./image/Vector (20).png" alt="location"></span>
                         51 Green St.Huntington ohaio beach ontario, NY 11746 KY 4783, USA.
                     </p>
                     <p>
-                        <!-- <span><img src="./image/Vector (8).png" alt=""></span> -->
+                        <span><img src="./image/Vector (21).png" alt=""></span>
                         example@email.com
                     </p>
                     <p>
-                        <!-- <span><img src="./image/Item.png" alt=""></span> -->
+                        <span><img src="./image/Vector (22).png" alt=""></span>
                         +91 123 4567890
                     </p>
-                    </div>
+            </div>
+
                 
-
-
-                    <div class="secCol">
-                    <h2>company</h2>
+            <div class="secCol">
+                    <h4>company</h4>
                     
                         <p>About Us</p>
                         <p>Delivery Information</p>
@@ -508,11 +560,11 @@
                         <p>contact us</p>
                         <p>Support Center</p>
                     
-                    </div>
+            </div>
 
 
-                    <div class="thirdCol">
-                    <h2>Category</h2>
+            <div class="thirdCol">
+                    <h4>Category</h4>
                     
                         <p>Dairy & Bakery</p>
                         <p>Fruits & Vegetable </p>
@@ -521,35 +573,40 @@
                         <p>Chicken & Meat</p>
                         <p>Fast food </p>
                     
-                </div>
+            </div>
 
 
-                <div class="fourtCol">
-                    <h2>Subscribe Our Newsletter</h2>
+            <div class="lastCol">
+                    <h4>Subscribe Our Newsletter</h4>
 
-                    <input type="text" placeholder="search here">
+                    <span class="search">
+                        <input class="inputField" type="text" placeholder="search here ...">
+                        <img class="arrow" src="./image/Vector (19).png" alt="newsarrow">
+                    </span> 
+                    
 
                     <div class="loGo">
-                        <!-- <span><img src="./image/type (3).png" alt="f"></span> -->
-                        <!-- <span><img src="./image/type.png" alt="x"></span> -->
-                        <!-- <span><img src="./image/type (1).png" alt="b"></span> -->
-                        <!-- <span><img src="./image/type (2).png" alt="insta"></span> -->
+                        <span class="logo"><img src="./image/Icon (2).png" alt="f"></span>
+                        <span class="logo"><img src="./image/Icon (3).png" alt="x"></span>
+                        <span class="logo"><img src="./image/Icon (4).png" alt="b"></span>
+                        <span class="logo"><img src="./image/Icon (5).png" alt="insta"></span>
                     </div>
 
                     <div class="imSpan">
                         <span class="spanImg">
-                            <!-- <img src="./image/81a86639cae1f7c01550d7d6dc0bb2f4632bee29.jpg" alt=""> -->
-                            <!-- <img src="./image/988bdede94a2c74e04cee078f6a587949612ae98.jpg" alt=""> -->
-                            <!-- <img src="./image/54ed978bcb73544cf5d9ac0b1a31c0e488e4fd3e.jpg" alt=""> -->
-                            <!-- <img src="./image/ea3f9926014a5d72f6b0f486832b4229a0d3784a.jpg" alt=""> -->
-                            <!-- <img src="./image/2eda24cc8621b1f569188e79c7b097e422b05909.jpg" alt=""> -->
+                            <img src="./image/81a86639cae1f7c01550d7d6dc0bb2f4632bee29 (1).jpg" alt="">
+                            <img src="./image/988bdede94a2c74e04cee078f6a587949612ae98 (1).jpg" alt="">
+                            <img src="./image/54ed978bcb73544cf5d9ac0b1a31c0e488e4fd3e (1).jpg" alt="">
+                            <img src="./image/ea3f9926014a5d72f6b0f486832b4229a0d3784a (1).jpg" alt="">
+                            <img src="./image/2eda24cc8621b1f569188e79c7b097e422b05909 (1).jpg" alt="">
                         </span>
                     </div>
-                </div>
             </div>
 
+            
+        </div>
 
-            <hr style="width: 1107px;margin-inline: auto;">
+            <hr style="width: 100%;margin-inline: auto;">
             <h6 style="display: flex;justify-content: center;align-items: center;">© 2025 <span style="color: #F53E32; padding-block: 10px;"  >Foodzy</span>,All right reserved.</h6>
 
 
